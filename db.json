@@ -1,39 +1,11 @@
 {
-    "product" : [
-        {
-            "id"             : 1,
-            "name"           : "alo",
-            "price"          : 100,
-            "sale"           : 80,
-            "photo"          : "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg"
-        },
-        {
-            "id"             : 2,
-            "name"           : "potol",
-            "price"          : 110,
-            "sale"           : 90,
-            "photo"          : "https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI="
-        },
-        {
-            "id"             : 3,
-            "name"           : "kumda",
-            "price"          : 90,
-            "sale"           : 60,
-            "photo"          : "https://pizzapalaceburwell.com/wp-content/uploads/2021/11/Food.jpg"
-        },
-        {
-            "id"             : 4,
-            "name"           : "ful kopi",
-            "price"          : 70,
-            "sale"           : 40,
-            "photo"          : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5NHgK9a0NuJaHI2x1nc2vO3zQ_FR0dgvPtuNMo50ZdX7-jMSZDk3VmBQ-QR8HPnrJrmk&usqp=CAU"
-        },
-        {
-            "id"             : 5,
-            "name"           : "dadosh",
-            "price"          : 50,
-            "sale"           : 30,
-            "photo"          : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBlH8Haoq4v7TZfWgJk8SWP5ZTNdE5UR37Q&usqp=CAU"
-        }
-    ]
+  "post": [
+    {
+      "id": 1,
+      "name": "Abdus samad",
+      "user_photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "content": "আমরা প্রোগ্রামার হিসেবে যেকোন থিম নিয়ে অনেক শৌখিণ সেটা  হোক এডিটর এর থিম অথবা টার্মিনাল । আমরা লিনাক্স এ অনেক ধরনের টার্মিনাল থিম দেখতে পেলেও উইন্ডোজ এ তেমন নেই !",
+      "photo": "https://us.123rf.com/450wm/dragomirescu/dragomirescu1905/dragomirescu190500490/122246267-gold-golden-metal-metallic-alphabet-letter-js-j-s-logo-icon-design-for-a-company-or-business.jpg?ver=6"
+    }
+  ]
 }

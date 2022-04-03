@@ -4,7 +4,79 @@
     padding: 0px;
     font-family: poppins;
 }
-
+body{
+    background-color: #F0F2F5;
+}
 img{
     max-width: 100%;
+}
+
+.creat-post{
+    background-color: #fff;
+    width: 100%;
+}
+.post-ceat-area img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-ceat-area button{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 100px;
+    background-color: #f0f2f5;
+    width: 88%;
+    text-align-last: left;
+}
+.post-ceat-area button:hover{
+    background-color: #eaeef0;
+}
+.three-buttons button{
+    width: 33%;
+    font-size: 17px;
+    font-weight: 600;
+    color: #65676b;
+    border-radius: 4px;
+    text-align-last: center;
+    background-color: #fff;
+    padding: 5px;
+}
+.three-buttons button:last-child{
+    width: 36%;
+}
+.three-buttons button:nth-child(1) span{
+    color: #f3425f;
+    font-size: 22px;
+}
+.three-buttons button:nth-child(2) span{
+    color: #45bd62;
+    font-size: 22px;
+}
+.three-buttons button:nth-child(3) span{
+    color: #f7b928;
+    font-size: 22px;
+}
+.user-timeline-info img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.user-timeline-info h6{
+    font-weight: 500;
+    cursor: pointer;
+}
+.user-timeline-info h6:hover{
+    text-decoration: underline;
+}
+
+.user-timline-area button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
 }

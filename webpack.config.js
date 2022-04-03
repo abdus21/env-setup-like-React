@@ -3,6 +3,13 @@ const path = require('path');
 const htmlwebclak = require('html-webpack-plugin');
 module.exports = {
     mode : "development",
+    entry : path.resolve(__dirname, 'src/index.js'),
+    output : {
+        path : path.resolve(__dirname, 'bundle'),
+        filename : 'bundle.js',
+        assetModuleFilename : '[name][ext]',
+        clean : true
+    },
     devServer : {
         static : {
             directory : path.resolve(__dirname, 'bundle')
@@ -12,13 +19,6 @@ module.exports = {
         hot : true,
         compress : true,
         historyApiFallback : true
-    },
-    entry : path.resolve(__dirname, 'src/index.js'),
-    output : {
-        path : path.resolve(__dirname, 'bundle'),
-        filename : 'bundle.js',
-        assetModuleFilename : '[name][ext]',
-        clean : true
     },
     module : {
         rules : [
